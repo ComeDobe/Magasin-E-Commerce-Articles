@@ -1,0 +1,36 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+menu {
+    display: flex;
+    padding: 1em 0;
+    margin: 0;
+    background-color: #6464ee;
+}
+
+menu > a {
+    margin-left: 2em;
+    color: white;
+    text-decoration: none;
+}
+
+#articles {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 80%;
+}
+
+.article {
+    margin: 0 0.5em;
+    padding: 2em;
+    flex-basis: 25%;
+    border: 1px solid #b7b3b3;
+    border-radius: 5px;
+}
+
+.article > img {
+    height: 750px;
+    width: 550px;
+}
+
